@@ -1,8 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Getting Started
 
-## Getting Started
-
-First, run the development server:
+Para rodar o projeto:
 
 ```bash
 npm run dev
@@ -14,7 +12,13 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abrir [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Estrutura do Projeto:
+
+1. Criar a pasta com o nome da página na pasta `pages` e criar um arquivo `index.tsx`;
+2. Criar os componentes na pasta `components` colocando em pastas e atribuíndo o `intex.tsx` a eles. Caso seja necessário algum tipo específico para o componente criar um arquivo `types.ts` dentro da pasta do componente específico;
+3. O que for de utilitários organizar dentro da pasta `utils`;
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 

@@ -12,6 +12,8 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "bg-home": "url('/bg-home.jpg')",
+        "bg-home-two": "url('/bg-home-two.jpg')",
       },
     },
   },
